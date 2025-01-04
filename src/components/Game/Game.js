@@ -22,7 +22,7 @@ function Game() {
 
   return (
     <>
-      <PreviousGuesses PreviousGuesses={previousGuesses}/>
+      <PreviousGuesses PreviousGuesses={previousGuesses} Answer={answer}/>
       <Guess HandlePreviousGuesses={handlePreviousGuesses}/>
     </>
   );

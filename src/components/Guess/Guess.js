@@ -1,3 +1,4 @@
+// GuessResults equivalent
 import React from "react";
 
 function Guess({HandlePreviousGuesses}) {
@@ -6,6 +7,7 @@ function Guess({HandlePreviousGuesses}) {
   // clear input field after submitting
   function handleSubmit(event) {
     event.preventDefault();
+    
     HandlePreviousGuesses(guess)
     setGuess(""); // clear input field
   }
