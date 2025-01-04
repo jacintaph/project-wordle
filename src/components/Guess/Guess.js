@@ -6,8 +6,7 @@ function Guess() {
   // clear input field after submitting
   function handleSubmit(event) {
     event.preventDefault();
-    console.log("guess submitted: ", guess);
-    setGuess("");
+    setGuess(""); // clear input field
   }
 
   return (
